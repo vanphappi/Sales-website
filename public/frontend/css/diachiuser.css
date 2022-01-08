@@ -1,0 +1,21 @@
+
+.btn-add{
+    float: right;
+    /* position: fixed; */
+    /* right: 90px; */
+    border:0;
+    background-color:#FBE061;
+    font-size: 22px;
+    line-height: 23px;
+    width: fit-content;
+    position: relative;
+}
+/* hover vào button thêm */
+.btn-add:hover{
+    cursor: pointer;
+}
+/* css hình dấu cộng */
+.fa-plus{
+    font-size:25px;
+    margin: 12px 1px; 
+}
