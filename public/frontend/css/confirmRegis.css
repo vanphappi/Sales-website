@@ -1,0 +1,448 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("asset/fonts/Montserrat-Regular.ttf");
+} 
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("asset/fonts/Montserrat-Bold.ttf");
+}
+
+b {
+    /* font-family: 'Montserrat-Bold'; */
+}
+
+/* định dạng default */
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+  }
+  /* class color-white */
+  .color-white{
+    color:#FFFFFF!important;
+  }
+  .form{
+    display: inline-block;
+    background-color: #B4EDFF;
+  }
+  /* html */
+  html {
+    color: #333;
+    font-size: 62.5%;
+    font-style: normal;
+    font-weight: normal;
+  }
+  /* form lớn */
+  .main{
+    position: relative;
+    width: 1157px;
+    height: 437px;
+    margin:50px auto;
+  }
+
+  header .row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+
+
+ header a {
+    float: right;
+    font-size: 15px;
+    color: #18A0FB !important;
+    float: right;
+    margin-top: 10px;
+  }
+
+  /* form lớn */
+  .form-group{
+    margin-top:40px;
+  }
+  /* từng input form */
+  .form-control {
+    height:45px;
+    width: 100%; 
+    outline: none;  
+    background: #FFFFFF;
+    border:#FFFFFF;
+    padding: 8px 12px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+ 
+  /* thẻ img */
+  .img-responsive{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* chữ đăng kí */
+  .register{
+    text-align:right;
+    margin-top:8px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  /* css nút */
+  .btn-form{
+    position: relative;
+    display: block;
+    background: #000000;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 25px;
+    line-height: 35px;  
+    width:300px;
+    height:50px;
+margin-top: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .button-form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img{
+    position: relative;
+  }
+
+  /* rê vào nút có hiện con trỏ */
+  .btn:hover{
+    cursor: pointer;
+  }
+  /* css text Hoặc đăng ký với */
+  .text{
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+/* css icon  */
+  .icon{
+    position:absolute;
+    background: #000000;
+    width: 30px;
+    height: 30px;
+    border-radius:90%;
+    top: 18%;
+    left: 7px;
+  }
+  /*Phan footer*/
+  .footer{
+    background: #FFFFFF;
+  }
+/*CSS footer 1*/
+#foot-1{
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 200px;
+  height: 351.2px;
+  background: #F2F2F2;
+}
+/*CSS product footer 1*/
+#text-product{
+  position: relative;
+  left: 18.19%;
+  right: 78.33%;
+  top: 20.5%;
+  bottom: 67.07%;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  background: #F2F2F2;
+}
+/*CSS features footer 1*/
+#text-features{
+  position: relative;
+  left: 23.19%;
+  right: 70.07%;
+  top: 20.5%;
+  bottom: 67.07%;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  background: #F2F2F2;
+}
+/*CSS resources footer 1*/
+#text-resources{
+  position: relative;
+  left: 28.19%;
+  right: 60.97%;
+  top: 20.5%;
+  bottom: 67.07%;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  background: #F2F2F2;
+}
+/*CSS trade footer 1*/
+#text-trade{ 
+  position: relative;
+  left: 34.19%;
+  top: 21%;
+  bottom: 65.85%;
+  font-weight: bold;
+  font-size: 19.2px;
+  line-height: 22.4px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  background: #F2F2F2;
+}
+/*CSS about footer 1*/
+#text-about{
+  position: relative;
+  left: 41.19%;
+  right: 36.39%;
+  top: 20.5%;
+  bottom: 67.07%;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  background: #F2F2F2;
+}
+/*CSS blog footer 1*/
+#text-blog{
+  position: relative;
+  left: 46.19%;
+  right: 29.93%;
+  top: 20.5%;
+  bottom: 67.07%;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  background: #F2F2F2;
+}
+/*CSS support footer 1*/
+#text-support{
+  position: relative;
+  left: 51.19%;
+  right: 21.94%;
+  top: 20.5%;
+  bottom: 67.07%;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  background: #F2F2F2;
+}
+/*CSS line footer 1*/
+#line-foot{
+  position: relative;
+  width:865px;
+  left: 15.28%;
+  right: 15.28%;
+  top: 33%;
+  border: 1px solid #000000;
+
+}
+/*CSS eclipse footer 1*/
+.eclipse{
+  position: relative;
+  display: inline-block;
+  left: 35.72%;
+  top: 50.5%;
+  margin-left: 24px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #F2F2F2;
+
+}
+/*CSS nam footer 1*/
+#text-nam{
+  position: relative;
+  display:inline-block;
+  left: 15%;
+  top: 64%;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  background: #F2F2F2;
+}
+/*CSS privacy footer 1*/
+#text-privacy{
+  position: relative;
+  display:inline-block;
+  top: 64%;
+  left: 18.5%;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  background: #F2F2F2;
+}
+/*CSS footer 2*/
+#foot-2{
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 50px;
+  margin-left: 0;
+  width: 100%;
+  min-height: 531.2px;
+  background: #F2F2F2;
+  display: flex;
+}
+/*CSS text trade footer 2*/
+#text-foot2-1{
+  position: relative;
+  top: 115.6px;
+  left: 110px;
+  Height: 419.2px;
+  width: 320px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  background: #F2F2F2;
+}
+/*CSS text contact footer 2*/
+#text-foot2-2{
+  position: relative;
+  top: 115.6px;
+  left: 110px;
+  Height: 419.2px;
+  width: 200px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  background: #F2F2F2;
+}
+/*CSS cac the con cua text contact footer 2*/
+#text-foot2-2 > *{
+  margin-bottom: 20px;
+  background: #F2F2F2;
+}
+/*CSS text features footer 2*/
+#text-foot2-3{
+  position: relative;
+  top: 115.6px;
+  left: 110px;
+  Height: 419.2px;
+  width: 176px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  background: #F2F2F2;
+}
+/*CSS cac the con cua text features footer 2*/
+#text-foot2-3 > *{
+  margin-bottom: 20px;
+  background: #F2F2F2;
+}
+/*CSS text resources footer 2*/
+#text-foot2-4{
+  position: relative;
+  top: 115.6px;
+  left: 110px;
+  Height: 419.2px;
+  width: 176px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  background: #F2F2F2;
+}
+/*CSS cac the con cua text resources footer 2*/
+#text-foot2-4 > *{
+  margin-bottom: 20px;
+  background: #F2F2F2;
+}
+/*CSS text company footer 2*/
+#text-foot2-5{
+  position: relative;
+  top: 115.6px;
+  left: 110px;
+  Height: 419.2px;
+  width: 176px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  background: #F2F2F2;
+}
+/*CSS cac the con cua text company footer 2*/
+#text-foot2-5 > *{
+  margin-bottom: 20px;
+  background: #F2F2F2;
+}
+@media(max-width:1300px){
+  #line-foot{
+    width:69.3%
+  }
+  #text-nam{
+    left:13%;
+  }
+  #text-privacy{
+    left:17%
+  }
+ .img-responsive{
+    margin-top: 5%;
+  }
+}
+
+@media(min-width:1431.35px) and (max-width:1500px){
+  #line-foot{
+    width:63.4%
+  }
+  #text-nam{
+    left:16.8%;
+  }
+  #text-privacy{
+    left:20.2%
+  }
+}
+
+@media(min-width:1531.35px){
+  #line-foot{
+    width:60.3%
+  }
+  #text-nam{
+    left:18.8%;
+  }
+  #text-privacy{
+    left:21.7%
+  }
+}
+
+
+ @media (max-width: 576px) {
+    .img-responsive  {
+      display:none;
+    }
+ }
+
+ @media (min-width: 577px) and (max-width: 767px) {
+    .img-responsive {
+      display:none;
+    }
+ }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .img-responsive {
+      display: none;
+    }
+  }
+
+.passvisible {
+  float: right;
+  color: gray;
+  font-size: 25px;
+  margin-top: -35px;
+  margin-right: 10px;
+}
+

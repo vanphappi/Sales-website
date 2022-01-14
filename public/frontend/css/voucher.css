@@ -1,0 +1,65 @@
+/* container voucher */
+
+.container-user-details{
+    display:flex;
+    justify-content: center;
+}
+
+.container-voucher{
+    background-color: #FEACB8;
+    width: 90%;
+    border-radius: 3vh;
+    margin-block: 20px;
+}
+
+.text-ma{
+    float: left;
+    /* width: 50%; */
+    height: 13%;
+    font-weight: 500;
+    font-size: x-large;
+    letter-spacing: -0.015em;
+    color: #000000;
+    margin-left: 3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.break-line{
+    clear: left;
+    width: 99.8%;
+    height: 0%;
+    border: 0.1vh solid rgba(0, 0, 0, 0.3);
+    /* top: 10%; */
+}
+
+.voucher-title img {
+     width: 8%;
+     min-width: 30px;
+}
+
+.voucher-img img {
+    max-height: 180px;
+    border-radius: 2vh;
+    width: 100%;
+    height: 100%;
+}
+
+.voucher-info {
+    padding: 15px 15px 0 15px;
+}
+
+.voucher-condition {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.voucher-condition a {
+    font-weight: bold;
+}
+
+.voucher-detail {
+    padding-inline: 30px;
+    padding-block: 15px;
+}

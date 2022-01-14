@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("{{asset('public/frontend/font/Montserrat-Regular.ttf')}}");
+} 
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("{{asset('public/frontend/font/Montserrat-Bold.ttf')}}");
+}
+
+* {
+    font-family: 'Montserrat';
+    font-size: 20px;
+}

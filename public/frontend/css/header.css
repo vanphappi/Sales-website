@@ -1,0 +1,128 @@
+.row-mainnav{
+    padding: 2px;
+}
+
+.btnnav{
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#btnlogin {
+    background-color: #A8DBFE;
+    color: #18A0FB;
+    border: 1px solid #18A0FB;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin-right: 5px;
+    line-height: 35px;
+}
+
+#btnregister {
+    background-color: #18A0FB;
+    color: #A8DBFE;
+    border: 1px solid #18A0FB;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 35px;
+}
+
+.mainnav {
+    padding-left: 5%;
+    position: relative;
+    background: none!important;
+}
+
+.mainnav a {
+    color: #18A0FB!important;
+    /* max-width: 200px; */
+}
+
+/* search nav */
+.searchbar.search{
+    display: flex;
+    align-items: center;
+    /* background: red; */
+}
+
+.searchbar.cart{
+    /* width: max-content; */
+    justify-content: start;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* background: pink; */
+}
+
+.searchbar.logo{
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    /* background: blue; */
+}
+
+.searchbar.logo img {
+    width: 100%;
+    max-width: 80px;
+}
+
+.searchbar.cart i {
+    font-size: 40px;
+    color: black;
+    float: left;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.input-group-btn .btn {
+    box-shadow: none;
+    font-size: 10px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1px;
+    margin-right: -1px;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+}
+
+@media (max-width: 576px) {
+
+    .btnnav {
+        display: flex;
+        justify-content: end;
+    }
+
+    .searchbar.logo {
+        display: none;
+    }
+
+    .searchbar.cart {
+        display: none;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+
+    .searchbar.logo {
+        /* display: none; */
+    }
+    
+    .btnnav {
+        justify-content: end;
+        /* display: block; */
+        /* margin-left: 10%; */
+    }
+
+}
