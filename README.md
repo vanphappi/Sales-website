@@ -10,3 +10,4 @@
 # Sơ đồ chức năng
 - Sơ đồ cây tổng quan chức năng cho ADMIN
 ./HuongDanCaiDatVaSuDung/AdminTree.jpg
+![Trang chủ](./HuongDanCaiDatVaSuDung/AdminTree.jpg)
