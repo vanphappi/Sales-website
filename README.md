@@ -8,6 +8,7 @@
 - Giao diện thân thiện, dễ sử dụng, chức năng khá đầy đủ.
 
 # Sơ đồ chức năng
-- Sơ đồ cây tổng quan chức năng cho ADMIN
-./HuongDanCaiDatVaSuDung/AdminTree.jpg
-![Trang chủ](./HuongDanCaiDatVaSuDung/AdminTree.jpg)
+### Sơ đồ cây chức năng cho Admin
+![](./HuongDanCaiDatVaSuDung/AdminTree.jpg)
+### Sơ đồ cây chức năng cho Khách hàng
+![](./HuongDanCaiDatVaSuDung/KHtree.jpg)
